@@ -9,4 +9,3 @@ get-vm *hv* | Stop-VM -force
 Enter-PSSession -VMName LSRVHV01
 
 Checkpoint-VM "WHV01", "WHV02"
-*
