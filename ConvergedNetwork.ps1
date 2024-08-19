@@ -3,6 +3,7 @@ Set-VMSwitchTeam -Name SwitchSet -LoadBalancingAlgorithm Dynamic
 
 Get-VMSwitch
 Get-VMSwitch |  fl
+$Vswitch = Get-VMSwitch
 Get-VMSwitch -SwitchName $Vswitch | Select-Object BandwidthReservationMode
 Get-VMSwitchTeam -SwitchName $Vswitch | Format-List
 
