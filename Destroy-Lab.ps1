@@ -1,4 +1,4 @@
-﻿$LabVMs = get-vm -name WH*
+﻿$LabVMs = get-vm -name WHV*
 
 ForEach ($LabVM in $LabVMs)
 
